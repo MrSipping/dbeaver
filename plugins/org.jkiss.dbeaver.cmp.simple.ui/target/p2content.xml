@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.jkiss.dbeaver.cmp.simple.ui' version='6.0.146.202502251514' generation='2'>
+    <update id='org.jkiss.dbeaver.cmp.simple.ui' range='[0.0.0,6.0.146.202502251514)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='DBeaver Schema Compare UI (Simple)'/>
+      <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.cmp.simple.ui'/>
+      <property name='maven-version' value='6.0.146-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.cmp.simple.ui' version='6.0.146.202502251514'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.cmp.simple.ui' version='6.0.146.202502251514'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.compare.simple.ui' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.cmp.simple.ui' version='6.0.146.202502251514'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='17'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.workbench' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.registry' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.editors.sql' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.navigator' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.cmp.simple' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.utils' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.jkiss.dbeaver.cmp.simple.ui
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.cmp.simple.ui.source' range='[6.0.146.202502251514,6.0.146.202502251514]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.cmp.simple.ui' version='6.0.146.202502251514'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jkiss.dbeaver.cmp.simple.ui;singleton:=true&#xA;Bundle-Version: 6.0.146.202502251514&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

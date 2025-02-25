@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.jkiss.dbeaver.ext.mssql' version='1.0.244.202502251527' generation='2'>
+    <update id='org.jkiss.dbeaver.ext.mssql' range='[0.0.0,1.0.244.202502251527)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='DBeaver SQL Server Model'/>
+      <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.ext.mssql'/>
+      <property name='maven-version' value='1.0.244-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='10'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.mssql' version='1.0.244.202502251527'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.ext.mssql' version='1.0.244.202502251527'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ext.mssql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ext.mssql.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ext.mssql.edit.generic' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ext.mssql.model' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ext.mssql.model.generic' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ext.mssql.model.session' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.ext.mssql' version='1.0.244.202502251527'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='12'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model.jdbc' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model.sql' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ext.generic' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model.lsm' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.registry' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.bundle.antlr4' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.github.jsqlparser' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='slf4j.api' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.jkiss.dbeaver.ext.mssql
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.mssql.source' range='[1.0.244.202502251527,1.0.244.202502251527]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.mssql' version='1.0.244.202502251527'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jkiss.dbeaver.ext.mssql;singleton:=true&#xA;Bundle-Version: 1.0.244.202502251527&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

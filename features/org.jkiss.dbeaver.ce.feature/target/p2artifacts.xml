@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='4'>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.ce.feature_root.gtk.linux.x86' version='25.0.0.202502251514'>
+    <properties size='11'>
+      <property name='artifact.size' value='8578'/>
+      <property name='download.size' value='8578'/>
+      <property name='download.checksum.sha-512' value='e460c887dc47a2eacac8a282541a9c8b4df09c6a095ef3d284eb824919466241de5bba12dfdd889a71ad4310d5536cf570289d908a7493cdc38afe2c1447dc45'/>
+      <property name='download.checksum.sha-1' value='972ed6ba9daa5588f11b391d9c75ba2cda529333'/>
+      <property name='download.checksum.sha-256' value='8b62dcd7b13d7afcdc06b7639ffc82e1f7fb9e346a22637e430f004b7ee9288a'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.ce.feature'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='zip'/>
+      <property name='maven-classifier' value='root.gtk.linux.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.ce.feature_root.gtk.linux.x86_64' version='25.0.0.202502251514'>
+    <properties size='11'>
+      <property name='artifact.size' value='8578'/>
+      <property name='download.size' value='8578'/>
+      <property name='download.checksum.sha-512' value='e460c887dc47a2eacac8a282541a9c8b4df09c6a095ef3d284eb824919466241de5bba12dfdd889a71ad4310d5536cf570289d908a7493cdc38afe2c1447dc45'/>
+      <property name='download.checksum.sha-1' value='972ed6ba9daa5588f11b391d9c75ba2cda529333'/>
+      <property name='download.checksum.sha-256' value='8b62dcd7b13d7afcdc06b7639ffc82e1f7fb9e346a22637e430f004b7ee9288a'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.ce.feature'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='zip'/>
+      <property name='maven-classifier' value='root.gtk.linux.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.ce.feature_root' version='25.0.0.202502251514'>
+    <properties size='11'>
+      <property name='artifact.size' value='69945'/>
+      <property name='download.size' value='69945'/>
+      <property name='download.checksum.sha-512' value='918f8753e6ceea8f7bac4e5e89b0b807006f7348e6ea9dbe048a361f59ada937c8df2c68579f72d6340f2232e1a29acd4be3d3d10c1033ccac2e0061005ecacb'/>
+      <property name='download.checksum.sha-1' value='896a81379a34a000c9fa1ab7dd1c7b1284d763ba'/>
+      <property name='download.checksum.sha-256' value='6bf051cb411b60d847836853b108e03e61fa42c534d339a2700c5332a424c5e5'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.ce.feature'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='zip'/>
+      <property name='maven-classifier' value='root'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.ce.feature' version='25.0.0.202502251514'>
+    <properties size='10'>
+      <property name='artifact.size' value='4915'/>
+      <property name='download.size' value='4915'/>
+      <property name='download.checksum.sha-512' value='51f82be9396a7ad35ae914f7905ef14a1af1430a22a79d849639e2bd918fdacb361a26e96166cdb1ff8d107abfd8349d9fd3da11229d0de43384666aa48c3df7'/>
+      <property name='download.checksum.sha-1' value='04d1514587de57abcd9b40c37abd8e26f5e6a118'/>
+      <property name='download.checksum.sha-256' value='89a91c152405f6744b6ab1c4763f62b610f05b080620ea81a761a07896bbd6dc'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.ce.feature'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Events Model
+Bundle-SymbolicName: org.jkiss.dbeaver.model.event;singleton:=true
+Bundle-Version: 1.0.54.202502251527
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Export-Package: org.jkiss.dbeaver.model.websocket,org.jkiss.dbeaver.mode
+ l.websocket.event,org.jkiss.dbeaver.model.websocket.event.client,org.jk
+ iss.dbeaver.model.websocket.event.datasource,org.jkiss.dbeaver.model.we
+ bsocket.event.permissions,org.jkiss.dbeaver.model.websocket.event.resou
+ rce,org.jkiss.dbeaver.model.websocket.event.session,org.jkiss.dbeaver.m
+ odel.websocket.registry
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.equinox.security,org.eclipse.core.runtime,or
+ g.jkiss.dbeaver.model;visibility:=reexport,org.jkiss.dbeaver.registry;v
+ isibility:=reexport,com.google.gson,org.jkiss.dbeaver.model.sm
+Bundle-Localization: OSGI-INF/l10n/bundle
+Automatic-Module-Name: org.jkiss.dbeaver.model.event
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

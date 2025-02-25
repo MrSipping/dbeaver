@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver Oracle Model
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.oracle;singleton:=true
+Bundle-Version: 2.1.235.202502251527
+Bundle-Release-Date: 20250303
+Bundle-Activator: org.jkiss.dbeaver.ext.oracle.internal.OracleActivator
+Require-Bundle: org.eclipse.core.runtime,com.github.jsqlparser,com.googl
+ e.gson,org.jkiss.dbeaver.data.gis,org.jkiss.dbeaver.model;visibility:=r
+ eexport,org.jkiss.dbeaver.model.jdbc;visibility:=reexport,org.jkiss.dbe
+ aver.model.sql,org.jkiss.dbeaver.registry,org.jkiss.dbeaver.tasks.nativ
+ e;visibility:=reexport
+Export-Package: org.jkiss.dbeaver.ext.oracle,org.jkiss.dbeaver.ext.oracl
+ e.data,org.jkiss.dbeaver.ext.oracle.edit,org.jkiss.dbeaver.ext.oracle.m
+ odel,org.jkiss.dbeaver.ext.oracle.model.auth,org.jkiss.dbeaver.ext.orac
+ le.model.dict,org.jkiss.dbeaver.ext.oracle.model.lock,org.jkiss.dbeaver
+ .ext.oracle.model.plan,org.jkiss.dbeaver.ext.oracle.model.session,org.j
+ kiss.dbeaver.ext.oracle.model.source,org.jkiss.dbeaver.ext.oracle.oci,o
+ rg.jkiss.dbeaver.ext.oracle.tasks
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Import-Package: com.google.gson
+Automatic-Module-Name: org.jkiss.dbeaver.ext.oracle
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

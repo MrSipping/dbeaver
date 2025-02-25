@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='3'>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.core.product.executable.win32.win32.x86_64' version='25.0.0.202502251514'>
+    <properties size='7'>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='standalone'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='org.jkiss.dbeaver.core.product.executable.win32.win32.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+      <property name='maven-type' value='zip'/>
+      <property name='download.checksum.sha-256' value='fec44eea1db441f53fad03ca3b10028650cddeea6b38e1296d7e760a6e0d709f'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.core.product.executable.gtk.linux.x86_64' version='25.0.0.202502251514'>
+    <properties size='7'>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='standalone'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='org.jkiss.dbeaver.core.product.executable.gtk.linux.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+      <property name='maven-type' value='zip'/>
+      <property name='download.checksum.sha-256' value='86e87e43a59d199977b3cf7f0a482a1a814102e28e2a60d451ae16d0841b1774'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.core.product.executable.cocoa.macosx.x86_64' version='25.0.0.202502251514'>
+    <properties size='7'>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='standalone'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='org.jkiss.dbeaver.core.product.executable.cocoa.macosx.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+      <property name='maven-type' value='zip'/>
+      <property name='download.checksum.sha-256' value='681f1d613a3df7e583b2cd77ba6a05e4672c8e8afc0ed56f48af8151bfdae1ad'/>
+    </properties>
+  </artifact>
+</artifacts>

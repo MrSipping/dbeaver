@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Eclipse IDE
+Bundle-SymbolicName: org.jkiss.dbeaver.ui.app.eclipse;singleton:=true
+Bundle-Version: 25.0.0.202502251514
+Bundle-Release-Date: 20250303
+Require-Bundle: org.eclipse.ui,org.jkiss.dbeaver.core,org.jkiss.dbeaver.
+ ui,org.jkiss.dbeaver.ui.editors.data,org.jkiss.dbeaver.ui.editors.sql
+Automatic-Module-Name: org.jkiss.dbeaver.ui.app.eclipse
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

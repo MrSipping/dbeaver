@@ -1,0 +1,6 @@
+name=DBeaver
+id=org.jkiss.dbeaver.core.appstore
+version=25.0.1
+snapshot=25.0.1-202502251514
+branch=${sourceBranch}
+commit=${sourceCommit}

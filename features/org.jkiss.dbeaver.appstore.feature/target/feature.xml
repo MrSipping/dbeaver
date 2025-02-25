@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="org.jkiss.dbeaver.appstore.feature"
+        label="%featureName"
+        version="25.0.0.202502251514"
+        provider-name="%providerName"
+        plugin="org.jkiss.dbeaver.ui.app.standalone">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <license url="%licenseURL">
+        %license
+    </license>
+
+    <url>
+        <update label="DBeaver Universal Database Manager" url="https://dbeaver.io/"/>
+    </url>
+
+    <includes id="org.jkiss.dbeaver.app.base.feature" version="25.0.0.202502251514"/>
+
+    <!-- Additional plugins for standalone version -->
+
+    <plugin id="org.jkiss.dbeaver.ui.app.standalone" version="25.0.0.202502251514"/>
+    <plugin id="org.jkiss.dbeaver.ui.config.sample" version="1.0.187.202502251514" />
+
+    <includes id="org.jkiss.dbeaver.ui.extra.feature" version="25.0.0.202502251514"/>
+    <plugin id="org.jkiss.dbeaver.ui.app.winstore" os="win32" arch="x86_64" version="1.0.75.202502251514" />
+
+</feature>

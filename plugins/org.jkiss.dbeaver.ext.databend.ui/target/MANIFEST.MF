@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver Databend UI
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.databend.ui;singleton:=true
+Bundle-Version: 1.0.5.202502251514
+Bundle-Release-Date: 20250303
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.jkiss.dbeave
+ r.model,org.jkiss.dbeaver.ext.databend,org.jkiss.dbeaver.ui,org.jkiss.d
+ beaver.ui.editors.connection,org.jkiss.dbeaver.ext.generic.ui
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.ext.databend.ui
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

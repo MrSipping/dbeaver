@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.rcp.feature' version='3.0.29.202502251514'>
+    <properties size='10'>
+      <property name='artifact.size' value='5313'/>
+      <property name='download.size' value='5313'/>
+      <property name='download.checksum.sha-512' value='f62f53ab085d1323fe6c315bf8bbdd8d333544f06303c1b94771cba6445d62fdc4c65a86a3faff022b998c303d6802baf09bd6aad5fde464087c26be538d9de2'/>
+      <property name='download.checksum.sha-1' value='35f98e8ac1b4f0637519f00a707a2215894545eb'/>
+      <property name='download.checksum.sha-256' value='942fb7653010c20c507a5cc50b7b5cc335420cbef66790b7a9e32d7d1ca03808'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.rcp.feature'/>
+      <property name='maven-version' value='3.0.29-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

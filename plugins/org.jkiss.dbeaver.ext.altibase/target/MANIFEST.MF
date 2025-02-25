@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver Altibase Support
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.altibase;singleton:=true
+Bundle-Version: 1.0.11.202502251527
+Bundle-Release-Date: 20250303
+Require-Bundle: org.eclipse.core.runtime,org.jkiss.dbeaver.model,org.jki
+ ss.dbeaver.ext.generic,org.jkiss.dbeaver.data.gis,org.jkiss.dbeaver.mod
+ el.sql,com.google.gson,org.jkiss.dbeaver.tasks.native
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.ext.altibase
+Export-Package: org.jkiss.dbeaver.ext.altibase,org.jkiss.dbeaver.ext.alt
+ ibase.model,org.jkiss.dbeaver.ext.altibase.model.lock,org.jkiss.dbeaver
+ .ext.altibase.model.session
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

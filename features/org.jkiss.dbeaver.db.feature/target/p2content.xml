@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.jkiss.dbeaver.db.feature.feature.jar' version='1.0.141.202502251527'>
+    <properties size='11'>
+      <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+      <property name='org.eclipse.equinox.p2.description' value='%description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+      <property name='df_LT.copyright' value='© 2010-2024, DBeaver Corp'/>
+      <property name='df_LT.featureName' value='DBeaver Databases'/>
+      <property name='df_LT.description' value='DBeaver SQL databases support'/>
+      <property name='df_LT.providerName' value='DBeaver Corp'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.db.feature'/>
+      <property name='maven-version' value='1.0.141-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.db.feature.feature.jar' version='1.0.141.202502251527'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='org.jkiss.dbeaver.db.feature' version='1.0.141.202502251527'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.db.feature' version='1.0.141.202502251527'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <copyright>
+      %copyright
+    </copyright>
+  </unit>
+  <unit id='org.jkiss.dbeaver.db.feature.feature.group' version='1.0.141.202502251527' singleton='false'>
+    <update id='org.jkiss.dbeaver.db.feature.feature.group' range='[0.0.0,1.0.141.202502251527)' severity='0'/>
+    <properties size='12'>
+      <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+      <property name='org.eclipse.equinox.p2.description' value='%description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.db.feature'/>
+      <property name='maven-version' value='1.0.141-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='df_LT.copyright' value='© 2010-2024, DBeaver Corp'/>
+      <property name='df_LT.featureName' value='DBeaver Databases'/>
+      <property name='df_LT.description' value='DBeaver SQL databases support'/>
+      <property name='df_LT.providerName' value='DBeaver Corp'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.db.feature.feature.group' version='1.0.141.202502251527'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='43'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.db2' range='[2.1.235.202502251527,2.1.235.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.mysql' range='[2.1.235.202502251527,2.1.235.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.mssql' range='[1.0.244.202502251527,1.0.244.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.oracle' range='[2.1.235.202502251527,2.1.235.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.postgresql' range='[2.1.223.202502251527,2.1.223.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.generic' range='[2.3.236.202502251527,2.3.236.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.athena' range='[1.0.156.202502251527,1.0.156.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.bigquery' range='[1.0.156.202502251527,1.0.156.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.clickhouse' range='[1.0.155.202502251527,1.0.155.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.cubrid' range='[1.0.26.202502251527,1.0.26.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.db2.zos' range='[1.0.153.202502251527,1.0.153.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.db2.i' range='[1.0.138.202502251527,1.0.138.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.databend' range='[1.0.5.202502251527,1.0.5.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.derby' range='[1.1.235.202502251527,1.1.235.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.dameng' range='[1.0.34.202502251527,1.0.34.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.duckdb' range='[1.0.42.202502251527,1.0.42.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.exasol' range='[1.0.208.202502251527,1.0.208.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.firebird' range='[1.0.251.202502251527,1.0.251.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.gbase8s' range='[1.0.0.202502251527,1.0.0.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.greenplum' range='[1.0.151.202502251527,1.0.151.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.h2' range='[1.0.205.202502251527,1.0.205.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.hana' range='[1.2.128.202502251527,1.2.128.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.hive' range='[1.0.156.202502251527,1.0.156.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.hsqldb' range='[1.0.197.202502251527,1.0.197.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.informix' range='[1.0.241.202502251527,1.0.241.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.netezza' range='[1.0.215.202502251527,1.0.215.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.oceanbase' range='[1.0.88.202502251527,1.0.88.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.tidb' range='[1.0.30.202502251527,1.0.30.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.phoenix' range='[1.0.219.202502251527,1.0.219.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.snowflake' range='[1.0.170.202502251527,1.0.170.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.spanner' range='[1.0.137.202502251527,1.0.137.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.sqlite' range='[1.0.199.202502251527,1.0.199.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.teradata' range='[1.0.218.202502251527,1.0.218.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.trino' range='[1.0.43.202502251527,1.0.43.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.vertica' range='[2.0.180.202502251527,2.0.180.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.ocient' range='[1.0.121.202502251527,1.0.121.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.denodo' range='[1.0.96.202502251527,1.0.96.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.databricks' range='[1.0.72.202502251527,1.0.72.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.altibase' range='[1.0.11.202502251527,1.0.11.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.gaussdb' range='[1.0.11.202502251527,1.0.11.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.dbeaver.jdbc.api' range='[2.4.0.202502251527,2.4.0.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.dbeaver.jdbc.driver.libsql' range='[1.0.3.202502251527,1.0.3.202502251527]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.db.feature.feature.jar' range='[1.0.141.202502251527,1.0.141.202502251527]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <copyright>
+      %copyright
+    </copyright>
+  </unit>
+</units>

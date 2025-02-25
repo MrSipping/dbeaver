@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.erd.model' version='1.0.110.202502251527'>
+    <properties size='9'>
+      <property name='artifact.size' value='61205'/>
+      <property name='download.size' value='61205'/>
+      <property name='download.checksum.sha-512' value='815b2feb874c5099718d82521b140eb12b6cb10d5ae39805843af72c2f1b0d548e30b9ee24001633fd6ae78ad70d78b2916ae33b1dff0d9865c422fcfc2c3705'/>
+      <property name='download.checksum.sha-1' value='ad75377cf9413a0d26eb90b2bcf00e5bd00db344'/>
+      <property name='download.checksum.sha-256' value='1442dc3babefa15ced5b887408f929260213b326b3110b6542ee9d6020fc8e6f'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.erd.model'/>
+      <property name='maven-version' value='1.0.110-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>

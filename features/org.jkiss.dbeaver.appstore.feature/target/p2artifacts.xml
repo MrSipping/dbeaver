@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='binary' id='org.jkiss.dbeaver.appstore.feature_root' version='25.0.0.202502251514'>
+    <properties size='11'>
+      <property name='artifact.size' value='69283'/>
+      <property name='download.size' value='69283'/>
+      <property name='download.checksum.sha-512' value='23c0837dddea404f7e9064b2491e6066940cf6a2c3efa0648b5ea519480692591192630f44ef516dbf70e126c6de07bfd0abcb552debcf3b15a580cc46122330'/>
+      <property name='download.checksum.sha-1' value='7e9988f8fb75c1615b1afc8b6238701bf62d9e50'/>
+      <property name='download.checksum.sha-256' value='52bf2f495a01a5038f4f3c4fc233ec3027a1bb1c9f7c581101b51ffde7eddaa5'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.appstore.feature'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='zip'/>
+      <property name='maven-classifier' value='root'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.jkiss.dbeaver.appstore.feature' version='25.0.0.202502251514'>
+    <properties size='10'>
+      <property name='artifact.size' value='5041'/>
+      <property name='download.size' value='5041'/>
+      <property name='download.checksum.sha-512' value='731aca38dbdd6a101a2dca4ef078059926d3aa1f59c11059dc51facd1d65adfae2ba9fd8dbfbe3dd2066635a7afe08c1c82e44c4e6b1af6604fa772231b4de57'/>
+      <property name='download.checksum.sha-1' value='00f8f37f3dbefdaf1148dbb46a184eeede844464'/>
+      <property name='download.checksum.sha-256' value='e2092f851764a4726e46cc515fe9ae2dd03dac5148e1b24222aa93a2eb053b2d'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.appstore.feature'/>
+      <property name='maven-version' value='25.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

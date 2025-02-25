@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver AI Model
+Bundle-SymbolicName: org.jkiss.dbeaver.model.ai;singleton:=true
+Bundle-Version: 1.0.52.202502251527
+Export-Package: org.jkiss.dbeaver.model.ai,org.jkiss.dbeaver.model.ai.co
+ mpletion,org.jkiss.dbeaver.model.ai.format,org.jkiss.dbeaver.model.ai.i
+ nternal,org.jkiss.dbeaver.model.ai.openai,org.jkiss.dbeaver.model.ai.op
+ enai.service,org.jkiss.dbeaver.model.ai.translator,org.jkiss.dbeaver.mo
+ del.ai.metadata
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.model.ai
+Require-Bundle: org.jkiss.dbeaver.model,org.jkiss.dbeaver.model.sql,org.
+ jkiss.dbeaver.registry,org.jkiss.bundle.gpt3,com.google.gson
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

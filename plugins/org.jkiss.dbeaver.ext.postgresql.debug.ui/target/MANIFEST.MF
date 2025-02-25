@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver PostgreSQL Debug UI
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.postgresql.debug.ui;singleton
+ :=true
+Bundle-Version: 1.0.179.202502251514
+Bundle-Release-Date: 20250303
+Bundle-Vendor: DBeaver Corp
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.core.runtime,org.jkiss.dbeaver.debug.core,or
+ g.jkiss.dbeaver.debug.ui,org.jkiss.dbeaver.ext.postgresql,org.jkiss.dbe
+ aver.ext.postgresql.ui,org.jkiss.dbeaver.ext.postgresql.debug.core,org.
+ eclipse.ui
+Automatic-Module-Name: org.jkiss.dbeaver.ext.postgresql.debug.ui
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

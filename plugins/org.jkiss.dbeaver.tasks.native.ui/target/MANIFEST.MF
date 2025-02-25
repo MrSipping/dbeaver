@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Tasks - Native Tools UI
+Bundle-SymbolicName: org.jkiss.dbeaver.tasks.native.ui;singleton:=true
+Bundle-Version: 1.0.128.202502251514
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.ui.console,org.jkiss.dbeaver.model.sql,org.j
+ kiss.dbeaver.registry,org.jkiss.dbeaver.ui.navigator,org.jkiss.dbeaver.
+ ui.editors.connection;visibility:=reexport,org.jkiss.dbeaver.tasks.nati
+ ve;visibility:=reexport,org.jkiss.dbeaver.tasks.ui;visibility:=reexport
+Export-Package: org.jkiss.dbeaver.tasks.ui.nativetool
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.tasks.native.ui
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

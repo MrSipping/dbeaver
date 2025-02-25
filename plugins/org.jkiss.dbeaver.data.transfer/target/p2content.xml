@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.jkiss.dbeaver.data.transfer' version='2.0.134.202502251527' generation='2'>
+    <update id='org.jkiss.dbeaver.data.transfer' range='[0.0.0,2.0.134.202502251527)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='DBeaver Data Transfer'/>
+      <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.data.transfer'/>
+      <property name='maven-version' value='2.0.134-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='16'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.data.transfer' version='2.0.134.202502251527'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.data.transfer' version='2.0.134.202502251527'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.sql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.database' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.processor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.registry' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.serialize' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.stream' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.stream.exporter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.stream.importer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.stream.model' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.tools.transfer.task' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.data.transfer' version='2.0.134.202502251527'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='6'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model.sql' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.registry' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.jkiss.dbeaver.data.transfer
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.data.transfer.source' range='[2.0.134.202502251527,2.0.134.202502251527]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.data.transfer' version='2.0.134.202502251527'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jkiss.dbeaver.data.transfer;singleton:=true&#xA;Bundle-Version: 2.0.134.202502251527&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

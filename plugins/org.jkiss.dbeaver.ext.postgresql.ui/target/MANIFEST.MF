@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver PostgreSQL UI
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.postgresql.ui;singleton:=true
+Bundle-Version: 1.0.126.202502251514
+Bundle-Release-Date: 20250303
+Require-Bundle: org.eclipse.e4.core.contexts,org.eclipse.e4.core.service
+ s,org.jkiss.dbeaver.registry;visibility:=reexport,org.jkiss.dbeaver.ext
+ .postgresql;visibility:=reexport,org.jkiss.dbeaver.ext.generic;visibili
+ ty:=reexport,org.jkiss.dbeaver.ext.generic.ui;visibility:=reexport,org.
+ jkiss.dbeaver.ui.editors.locks,org.jkiss.dbeaver.tasks.native.ui,org.jk
+ iss.dbeaver.ui.navigator,org.jkiss.dbeaver.ui.editors.connection;visibi
+ lity:=reexport,org.jkiss.dbeaver.ui.editors.data;visibility:=reexport,o
+ rg.jkiss.dbeaver.ui.editors.entity,org.jkiss.dbeaver.ui.editors.sql;vis
+ ibility:=reexport,org.jkiss.dbeaver.ui.editors.session,org.jkiss.dbeave
+ r.tasks.native.ui,org.jkiss.dbeaver.tasks.ui
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Bundle-Activator: org.jkiss.dbeaver.ext.postgresql.PostgreUIActivator
+Export-Package: org.jkiss.dbeaver.ext.postgresql,org.jkiss.dbeaver.ext.p
+ ostgresql.ui,org.jkiss.dbeaver.ext.postgresql.ui.config,org.jkiss.dbeav
+ er.ext.postgresql.ui.editors
+Bundle-Localization: OSGI-INF/l10n/bundle
+Automatic-Module-Name: org.jkiss.dbeaver.ext.postgresql.ui
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

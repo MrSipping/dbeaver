@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver Debug Model
+Bundle-SymbolicName: org.jkiss.dbeaver.debug.core;singleton:=true
+Bundle-Version: 1.0.179.202502251527
+Bundle-Release-Date: 20250303
+Bundle-Vendor: DBeaver Corp
+Require-Bundle: org.eclipse.e4.core.services,org.eclipse.e4.core.context
+ s,org.eclipse.core.runtime,org.eclipse.debug.core;visibility:=reexport,
+ org.jkiss.dbeaver.model;visibility:=reexport,org.jkiss.dbeaver.model.jd
+ bc
+Export-Package: org.jkiss.dbeaver.debug,org.jkiss.dbeaver.debug.core,org
+ .jkiss.dbeaver.debug.core.breakpoints,org.jkiss.dbeaver.debug.core.mode
+ l,org.jkiss.dbeaver.debug.jdbc
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: org.jkiss.dbeaver.debug.core
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

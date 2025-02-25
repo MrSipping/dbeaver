@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver SAP HANA Model
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.hana;singleton:=true
+Bundle-Version: 1.2.128.202502251527
+Bundle-Release-Date: 20250303
+Require-Bundle: org.jkiss.dbeaver.model,org.jkiss.dbeaver.model.sql;visi
+ bility:=reexport,org.jkiss.dbeaver.ext.generic,org.jkiss.dbeaver.data.g
+ is;visibility:=reexport,org.jkiss.bundle.gis;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Bundle-Localization: OSGI-INF/l10n/bundle
+Automatic-Module-Name: org.jkiss.dbeaver.ext.hana
+Export-Package: org.jkiss.dbeaver.ext.hana.model
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

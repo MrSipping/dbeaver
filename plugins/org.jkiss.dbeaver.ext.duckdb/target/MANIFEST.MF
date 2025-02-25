@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver DuckDB Model
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.duckdb;singleton:=true
+Bundle-Version: 1.0.42.202502251527
+Bundle-Release-Date: 20250303
+Require-Bundle: org.jkiss.dbeaver.model,org.jkiss.dbeaver.ext.generic,or
+ g.jkiss.dbeaver.data.gis
+Import-Package: org.jkiss.code,org.jkiss.dbeaver.model.sql.format
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.ext.duckdb
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

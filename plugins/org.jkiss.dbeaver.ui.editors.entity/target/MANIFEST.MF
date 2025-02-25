@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver UI Editors - Entity
+Bundle-SymbolicName: org.jkiss.dbeaver.ui.editors.entity;singleton:=true
+Bundle-Version: 1.0.150.202502251514
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.help,org.jkiss.dbeaver.ui,org.jkiss.dbeaver.
+ ui.navigator
+Export-Package: org.jkiss.dbeaver.ui.editors.object.config,org.jkiss.dbe
+ aver.ui.editors.object.struct
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.ui.editors.entity
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

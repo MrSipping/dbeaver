@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver OceanBase Model
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.oceanbase;singleton:=true
+Bundle-Version: 1.0.88.202502251527
+Bundle-Release-Date: 20250303
+Require-Bundle: org.eclipse.core.runtime,org.jkiss.dbeaver.model,org.jki
+ ss.dbeaver.ext.generic,org.jkiss.dbeaver.ext.mysql,com.google.gson,org.
+ jkiss.dbeaver.model,org.jkiss.dbeaver.model.sql,org.jkiss.dbeaver.regis
+ try,org.jkiss.dbeaver.data.gis
+Export-Package: org.jkiss.dbeaver.ext.oceanbase,org.jkiss.dbeaver.ext.oc
+ eanbase.model.auth,org.jkiss.dbeaver.ext.oceanbase.model
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.ext.oceanbase
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

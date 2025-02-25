@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.jkiss.dbeaver.model' version='2.0.10.202502251527' generation='2'>
+    <update id='org.jkiss.dbeaver.model' range='[0.0.0,2.0.10.202502251527)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='DBeaver API'/>
+      <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.model'/>
+      <property name='maven-version' value='2.0.10-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='83'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.model' version='2.0.10.202502251527'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.model' version='2.0.10.202502251527'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.access' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.admin.locks' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.admin.sessions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.app' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.auth.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.connection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.data.aggregate' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.data.hints' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.data.json' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.data.storage' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.dpi' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.edit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.edit.prop' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.exec' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.exec.compile' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.exec.output' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.exec.plan' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.exec.trace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.fs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.fs.event' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.admin.locks' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.app' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.data.formatters' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.data.transformers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.dpi' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.edit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.local' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.net' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.plan' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.sql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.sql.edit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.sql.edit.struct' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.impl.struct' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.logical' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.meta' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.messages' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.navigator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.navigator.fs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.navigator.meta' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.net' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.qm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.qm.filters' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.qm.meta' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.preferences' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.rm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.runtime.features' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.runtime.load' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.secret' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.sql' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.sql.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.security' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.struct' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.struct.cache' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.struct.rdb' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.task' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.model.virtual' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.registry.data.hints' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.registry.expressions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.registry.formatter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.registry.timezone' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.encode' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.jobs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.net' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.qm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.resource' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.ui' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.runtime.ui.console' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.utils' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.model' version='2.0.10.202502251527'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='18'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.security' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.net' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.apache.commons.jexl' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.github.jsqlparser' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.google.gson' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.utils' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.asn1' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.asn1.x500' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.cert' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.cert.jcajce' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.jce.provider' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.operator' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.operator.jcajce' range='0.0.0'/>
+      <required namespace='java.package' name='org.bouncycastle.util.io.pem' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.jkiss.dbeaver.model
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.model.source' range='[2.0.10.202502251527,2.0.10.202502251527]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.model' version='2.0.10.202502251527'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jkiss.dbeaver.model;singleton:=true&#xA;Bundle-Version: 2.0.10.202502251527&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

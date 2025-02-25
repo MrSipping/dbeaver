@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Dashboard UI
+Bundle-SymbolicName: org.jkiss.dbeaver.ui.dashboard;singleton:=true
+Bundle-Version: 1.0.147.202502251514
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.jkiss.dbeaver.ui.dashboard.internal.UIDashboardAct
+ ivator
+Bundle-ClassPath: .
+Require-Bundle: org.apache.commons.jexl,org.jkiss.dbeaver.tasks.ui,org.j
+ kiss.dbeaver.ui.charts;visibility:=reexport,org.jkiss.dbeaver.ui.editor
+ s.base,org.jkiss.dbeaver.ui.navigator,org.jkiss.dbeaver.model.dashboard
+ ;visibility:=reexport
+Export-Package: org.jkiss.dbeaver.ui.dashboard,org.jkiss.dbeaver.ui.dash
+ board.browser,org.jkiss.dbeaver.ui.dashboard.control,org.jkiss.dbeaver.
+ ui.dashboard.internal,org.jkiss.dbeaver.ui.dashboard.model,org.jkiss.db
+ eaver.ui.dashboard.view
+Automatic-Module-Name: org.jkiss.dbeaver.ui.dashboard
+Bundle-Localization: OSGI-INF/l10n/bundle
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

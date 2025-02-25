@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Dashboards Model
+Bundle-SymbolicName: org.jkiss.dbeaver.model.dashboard;singleton:=true
+Bundle-Version: 1.0.23.202502251527
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Export-Package: org.jkiss.dbeaver.model.dashboard,org.jkiss.dbeaver.mode
+ l.dashboard.data,org.jkiss.dbeaver.model.dashboard.navigator,org.jkiss.
+ dbeaver.model.dashboard.registry
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.core.expressions,org.jkiss.dbeaver.model;vis
+ ibility:=reexport,org.jkiss.dbeaver.registry;visibility:=reexport,com.g
+ oogle.gson
+Bundle-Localization: OSGI-INF/l10n/bundle
+Automatic-Module-Name: org.jkiss.dbeaver.model.dashboard
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

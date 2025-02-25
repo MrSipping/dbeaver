@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.jkiss.dbeaver.ui.editors.data' version='1.0.150.202502251514' generation='2'>
+    <update id='org.jkiss.dbeaver.ui.editors.data' range='[0.0.0,1.0.150.202502251514)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='DBeaver UI Editors - Data'/>
+      <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
+      <property name='maven-groupId' value='org.jkiss.dbeaver'/>
+      <property name='maven-artifactId' value='org.jkiss.dbeaver.ui.editors.data'/>
+      <property name='maven-version' value='1.0.150-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='25'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ui.editors.data' version='1.0.150.202502251514'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.editors.data' version='1.0.150.202502251514'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.registry.functions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.lightgrid' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.generator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.handler' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.panel' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.plaintext' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.spreadsheet' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.controls.resultset.view' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.data.dialogs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.data.editors' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.data.managers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.data.managers.stream' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.data.registry' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.editors.content' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.editors.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jkiss.dbeaver.ui.editors.data.preferences' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.ui.editors.data' version='1.0.150.202502251514'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.data.transfer.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.model.sql' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.tasks.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.editors.base' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.editors.entity' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.navigator' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.jkiss.dbeaver.registry' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.google.gson' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.jkiss.dbeaver.ui.editors.data
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ui.editors.data.source' range='[1.0.150.202502251514,1.0.150.202502251514]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.editors.data' version='1.0.150.202502251514'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.jkiss.dbeaver.ui.editors.data;singleton:=true&#xA;Bundle-Version: 1.0.150.202502251514&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

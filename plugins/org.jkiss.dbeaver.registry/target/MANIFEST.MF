@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Model Registry
+Bundle-SymbolicName: org.jkiss.dbeaver.registry;singleton:=true
+Bundle-Version: 1.0.144.202502251527
+Bundle-Release-Date: 20250303
+Bundle-ActivationPolicy: lazy
+Export-Package: org.jkiss.dbeaver.registry,org.jkiss.dbeaver.registry.da
+ tatype,org.jkiss.dbeaver.registry.driver,org.jkiss.dbeaver.registry.fs,
+ org.jkiss.dbeaver.registry.internal,org.jkiss.dbeaver.registry.language
+ ,org.jkiss.dbeaver.registry.maven,org.jkiss.dbeaver.registry.network,or
+ g.jkiss.dbeaver.registry.rm,org.jkiss.dbeaver.registry.settings,org.jki
+ ss.dbeaver.registry.storage,org.jkiss.dbeaver.registry.task,org.jkiss.d
+ beaver.registry.updater
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.expressions,or
+ g.eclipse.core.net,org.eclipse.equinox.security,org.objectweb.asm,com.g
+ oogle.gson,org.jkiss.dbeaver.model;visibility:=reexport,org.jkiss.dbeav
+ er.dpi.model,com.sun.jna.platform
+Bundle-Localization: OSGI-INF/l10n/bundle
+Automatic-Module-Name: org.jkiss.dbeaver.registry
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Vendor: DBeaver Corp
+Bundle-Name: DBeaver Desktop Application Core
+Bundle-SymbolicName: org.jkiss.dbeaver.core;singleton:=true
+Bundle-Version: 25.0.0.202502251514
+Bundle-Release-Date: 20250303
+Bundle-Activator: org.jkiss.dbeaver.core.DBeaverActivator
+Bundle-ActivationPolicy: lazy
+Export-Package: org.jkiss.dbeaver,org.jkiss.dbeaver.core,org.jkiss.dbeav
+ er.core.ui.services,org.jkiss.dbeaver.registry,org.jkiss.dbeaver.tools.
+ project,org.jkiss.dbeaver.tools.scripts,org.jkiss.dbeaver.ui.actions,or
+ g.jkiss.dbeaver.ui.browser,org.jkiss.dbeaver.ui.browser.handlers,org.jk
+ iss.dbeaver.ui.actions.common,org.jkiss.dbeaver.ui.actions.datasource,o
+ rg.jkiss.dbeaver.ui.dialogs.connection,org.jkiss.dbeaver.ui.e4,org.jkis
+ s.dbeaver.ui.eula,org.jkiss.dbeaver.ui.perspective,org.jkiss.dbeaver.ui
+ .preferences,org.jkiss.dbeaver.ui.resources,org.jkiss.dbeaver.ui.resour
+ ces.bookmarks,org.jkiss.dbeaver.ui.resources.projects,org.jkiss.dbeaver
+ .ui.resources.shortcuts,org.jkiss.dbeaver.ui.views,org.jkiss.dbeaver.ui
+ .views.process,org.jkiss.dbeaver.ui.views.qm
+Bundle-ClassPath: .,lib/awt.injector-1.0.0.jar
+Require-Bundle: org.osgi.service.event,org.eclipse.core.filesystem,org.e
+ clipse.core.net,org.eclipse.equinox.security,org.eclipse.ui.browser,org
+ .eclipse.ui.ide,org.eclipse.e4.core.contexts,org.eclipse.e4.core.servic
+ es,org.eclipse.e4.ui.model.workbench,org.eclipse.e4.ui.services,org.ecl
+ ipse.e4.ui.workbench,org.eclipse.e4.ui.workbench.swt,org.eclipse.e4.ui.
+ workbench.renderers.swt,org.jkiss.dbeaver.registry;visibility:=reexport
+ ,org.jkiss.dbeaver.ui.editors.base;visibility:=reexport,org.jkiss.dbeav
+ er.ui.editors.connection;visibility:=reexport,org.jkiss.dbeaver.ui.edit
+ ors.sql;visibility:=reexport,org.jkiss.dbeaver.ui.navigator;visibility:
+ =reexport
+Import-Package: jakarta.annotation
+Bundle-Localization: OSGI-INF/l10n/bundle
+Automatic-Module-Name: org.jkiss.dbeaver.core
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

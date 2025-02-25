@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DBeaver TiDB Model
+Bundle-SymbolicName: org.jkiss.dbeaver.ext.tidb;singleton:=true
+Bundle-Version: 1.0.30.202502251527
+Bundle-Release-Date: 20250303
+Require-Bundle: org.eclipse.core.runtime,org.jkiss.dbeaver.model,org.jki
+ ss.dbeaver.ext.generic,org.jkiss.dbeaver.ext.mysql,com.google.gson,org.
+ jkiss.dbeaver.model,org.jkiss.dbeaver.model.sql,org.jkiss.dbeaver.regis
+ try
+Export-Package: org.jkiss.dbeaver.ext.tidb,org.jkiss.dbeaver.ext.tidb.my
+ sql.model
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: DBeaver Corp
+Bundle-ClassPath: .
+Automatic-Module-Name: org.jkiss.dbeaver.ext.tidb
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+
