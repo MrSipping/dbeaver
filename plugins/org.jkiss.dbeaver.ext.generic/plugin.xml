@@ -214,7 +214,7 @@
                     <parameter name="read-only-meta-data" value="true"/>
                 </driver>
                 <driver
-                    id="scylladb"
+                    id="java-driver-core"
                     label="scylladb"
                     icon="icons/scylladb_icon.png"
                     iconBig="icons/scylladb_icon@2x.png"
