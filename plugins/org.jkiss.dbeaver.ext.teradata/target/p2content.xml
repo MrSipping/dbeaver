@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='org.jkiss.dbeaver.ext.teradata' version='1.0.218.202502251527' generation='2'>
-    <update id='org.jkiss.dbeaver.ext.teradata' range='[0.0.0,1.0.218.202502251527)' severity='0'/>
+  <unit id='org.jkiss.dbeaver.ext.teradata' version='1.0.219.202503011054' generation='2'>
+    <update id='org.jkiss.dbeaver.ext.teradata' range='[0.0.0,1.0.219.202503011054)' severity='0'/>
     <properties size='6'>
       <property name='org.eclipse.equinox.p2.name' value='DBeaver Teradata Model'/>
       <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
       <property name='maven-groupId' value='org.jkiss.dbeaver'/>
       <property name='maven-artifactId' value='org.jkiss.dbeaver.ext.teradata'/>
-      <property name='maven-version' value='1.0.218-SNAPSHOT'/>
+      <property name='maven-version' value='1.0.219-SNAPSHOT'/>
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
     <provides size='5'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.teradata' version='1.0.218.202502251527'/>
-      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.ext.teradata' version='1.0.218.202502251527'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.teradata' version='1.0.219.202503011054'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.ext.teradata' version='1.0.219.202503011054'/>
       <provided namespace='java.package' name='org.jkiss.dbeaver.ext.teradata.model' version='0.0.0'/>
-      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.ext.teradata' version='1.0.218.202502251527'>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.ext.teradata' version='1.0.219.202503011054'>
         <properties size='1'>
           <property name='type' value='osgi.bundle'/>
         </properties>
@@ -29,20 +29,20 @@
           org.jkiss.dbeaver.ext.teradata
         </description>
       </requiredProperties>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.teradata.source' range='[1.0.218.202502251527,1.0.218.202502251527]' optional='true'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.teradata.source' range='[1.0.219.202503011054,1.0.219.202503011054]' optional='true'>
         <filter>
           (org.eclipse.update.install.sources=true)
         </filter>
       </required>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.teradata' version='1.0.218.202502251527'/>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.teradata' version='1.0.219.202503011054'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: org.jkiss.dbeaver.ext.teradata;singleton:=true&#xA;Bundle-Version: 1.0.218.202502251527&#xA;
+          Bundle-SymbolicName: org.jkiss.dbeaver.ext.teradata;singleton:=true&#xA;Bundle-Version: 1.0.219.202503011054&#xA;
         </instruction>
       </instructions>
     </touchpointData>

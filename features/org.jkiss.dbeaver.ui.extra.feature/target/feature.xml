@@ -2,7 +2,7 @@
 <feature
       id="org.jkiss.dbeaver.ui.extra.feature"
       label="%featureName"
-      version="25.0.0.202502251514"
+      version="25.0.1.202503010932"
       provider-name="%providerName">
 
    <description>
@@ -13,13 +13,13 @@
       %copyright
    </copyright>
 
-   <plugin id="org.jkiss.dbeaver.tasks.ui" version="1.0.128.202502251514" />
-   <plugin id="org.jkiss.dbeaver.tasks.ui.view" version="1.0.99.202502251514" />
-   <plugin id="org.jkiss.dbeaver.tasks.native.ui" version="1.0.128.202502251514" />
-   <plugin id="org.jkiss.dbeaver.tasks.sql.ui" version="1.0.116.202502251514" />
-   <plugin id="org.jkiss.dbeaver.ui.config.migration" version="2.1.213.202502251514" />
-   <plugin id="org.jkiss.dbeaver.cmp.simple.ui" version="6.0.146.202502251514" />
-   <plugin id="org.jkiss.dbeaver.ui.dashboard" version="1.0.147.202502251514" />
-   <plugin id="org.jkiss.dbeaver.ui.editors.locks" version="1.0.195.202502251514" />
+   <plugin id="org.jkiss.dbeaver.tasks.ui" version="1.0.129.202503010932" />
+   <plugin id="org.jkiss.dbeaver.tasks.ui.view" version="1.0.100.202503010932" />
+   <plugin id="org.jkiss.dbeaver.tasks.native.ui" version="1.0.129.202503010932" />
+   <plugin id="org.jkiss.dbeaver.tasks.sql.ui" version="1.0.117.202503010932" />
+   <plugin id="org.jkiss.dbeaver.ui.config.migration" version="2.1.214.202503010932" />
+   <plugin id="org.jkiss.dbeaver.cmp.simple.ui" version="6.0.147.202503010932" />
+   <plugin id="org.jkiss.dbeaver.ui.dashboard" version="1.0.148.202503010932" />
+   <plugin id="org.jkiss.dbeaver.ui.editors.locks" version="1.0.196.202503010932" />
 
 </feature>

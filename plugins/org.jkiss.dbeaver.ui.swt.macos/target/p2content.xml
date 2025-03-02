@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='org.jkiss.dbeaver.ui.swt.macos' version='1.0.15.202502251514' generation='2'>
-    <update id='org.jkiss.dbeaver.ui.swt.macos' range='[0.0.0,1.0.15.202502251514)' severity='0'/>
+  <unit id='org.jkiss.dbeaver.ui.swt.macos' version='1.0.16.202503010932' generation='2'>
+    <update id='org.jkiss.dbeaver.ui.swt.macos' range='[0.0.0,1.0.16.202503010932)' severity='0'/>
     <properties size='6'>
       <property name='org.eclipse.equinox.p2.name' value='DBeaver MacOS SWT extensions'/>
       <property name='org.eclipse.equinox.p2.provider' value='DBeaver Corp'/>
       <property name='maven-groupId' value='org.jkiss.dbeaver'/>
       <property name='maven-artifactId' value='org.jkiss.dbeaver.ui.swt.macos'/>
-      <property name='maven-version' value='1.0.15-SNAPSHOT'/>
+      <property name='maven-version' value='1.0.16-SNAPSHOT'/>
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
     <provides size='7'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ui.swt.macos' version='1.0.15.202502251514'/>
-      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.swt.macos' version='1.0.15.202502251514'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ui.swt.macos' version='1.0.16.202503010932'/>
+      <provided namespace='osgi.bundle' name='org.jkiss.dbeaver.ui.swt.macos' version='1.0.16.202503010932'/>
       <provided namespace='java.package' name='org.eclipse.swt.browser' version='0.0.0'/>
       <provided namespace='java.package' name='org.jkiss.dbeaver.ui.swt.macos' version='0.0.0'/>
-      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.ui.swt.macos' version='1.0.15.202502251514'>
+      <provided namespace='osgi.identity' name='org.jkiss.dbeaver.ui.swt.macos' version='1.0.16.202503010932'>
         <properties size='1'>
           <property name='type' value='osgi.fragment'/>
         </properties>
       </provided>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      <provided namespace='osgi.fragment' name='org.eclipse.swt' version='1.0.15.202502251514'/>
+      <provided namespace='osgi.fragment' name='org.eclipse.swt' version='1.0.16.202503010932'/>
     </provides>
     <requires size='6'>
       <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
@@ -33,7 +33,7 @@
           org.jkiss.dbeaver.ui.swt.macos
         </description>
       </requiredProperties>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ui.swt.macos.source' range='[1.0.15.202502251514,1.0.15.202502251514]' optional='true'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ui.swt.macos.source' range='[1.0.16.202503010932,1.0.16.202503010932]' optional='true'>
         <filter>
           (org.eclipse.update.install.sources=true)
         </filter>
@@ -43,13 +43,13 @@
       (&amp;(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.swt.macos' version='1.0.15.202502251514'/>
+      <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ui.swt.macos' version='1.0.16.202503010932'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: org.jkiss.dbeaver.ui.swt.macos;singleton:=true&#xA;Bundle-Version: 1.0.15.202502251514&#xA;Fragment-Host: org.eclipse.swt&#xA;
+          Bundle-SymbolicName: org.jkiss.dbeaver.ui.swt.macos;singleton:=true&#xA;Bundle-Version: 1.0.16.202503010932&#xA;Fragment-Host: org.eclipse.swt&#xA;
         </instruction>
       </instructions>
     </touchpointData>

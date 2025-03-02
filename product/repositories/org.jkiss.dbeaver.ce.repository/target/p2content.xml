@@ -74,8 +74,8 @@
       <provided namespace='java.package' name='java.beans' version='0.0.0'/>
       <provided namespace='java.package' name='javax.sql' version='0.0.0'/>
       <provided namespace='java.package' name='javax.print.event' version='0.0.0'/>
-      <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
       <provided namespace='java.package' name='javax.imageio.metadata' version='0.0.0'/>
+      <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
       <provided namespace='java.package' name='java.net' version='0.0.0'/>
       <provided namespace='java.package' name='javax.naming.spi' version='0.0.0'/>
       <provided namespace='java.package' name='javax.imageio.plugins.bmp' version='0.0.0'/>
@@ -178,8 +178,8 @@
       <provided namespace='java.package' name='com.sun.jdi' version='0.0.0'/>
       <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
       <provided namespace='java.package' name='com.sun.security.jgss' version='0.0.0'/>
-      <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
       <provided namespace='java.package' name='java.util.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
       <provided namespace='java.package' name='javax.management.timer' version='0.0.0'/>
       <provided namespace='java.package' name='java.security.spec' version='0.0.0'/>
       <provided namespace='java.package' name='java.nio.file.spi' version='0.0.0'/>
@@ -261,34 +261,34 @@
     </provides>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
-  <unit id='202502251514.org.jkiss.dbeaver.additions' version='1.0.0.7H3EE9cKol-V7UEUsEUUsMsMk'>
+  <unit id='202503010932.org.jkiss.dbeaver.additions' version='1.0.0.7H3EEGcKokU67UEUsEcEMFLcU'>
     <properties size='3'>
       <property name='org.eclipse.equinox.p2.name' value='DBeaver Extensions'/>
       <property name='org.eclipse.equinox.p2.description' value='DBeaver advanced extensions'/>
       <property name='org.eclipse.equinox.p2.type.category' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='202502251514.org.jkiss.dbeaver.additions' version='1.0.0.7H3EE9cKol-V7UEUsEUUsMsMk'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='202503010932.org.jkiss.dbeaver.additions' version='1.0.0.7H3EEGcKokU67UEUsEcEMFLcU'/>
     </provides>
     <requires size='4'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.ai.feature.feature.group' range='[1.0.52.202502251514,1.0.52.202502251514]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.debug.feature.feature.group' range='[6.1.140.202502251514,6.1.140.202502251514]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.git.feature.feature.group' range='[1.0.138.202502251514,1.0.138.202502251514]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.office.feature.feature.group' range='[1.1.187.202502251514,1.1.187.202502251514]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.debug.feature.feature.group' range='[6.1.141.202503010932,6.1.141.202503010932]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.ai.feature.feature.group' range='[1.0.53.202503010932,1.0.53.202503010932]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.office.feature.feature.group' range='[1.1.188.202503010932,1.1.188.202503010932]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.git.feature.feature.group' range='[1.0.139.202503010932,1.0.139.202503010932]'/>
     </requires>
     <touchpoint id='null' version='0.0.0'/>
   </unit>
-  <unit id='202502251514.org.jkiss.dbeaver' version='1.0.0.7n--cKojM67737C377C5C5A'>
+  <unit id='202503010932.org.jkiss.dbeaver' version='1.0.0.7n-1cKojM67737C39353K97'>
     <properties size='3'>
       <property name='org.eclipse.equinox.p2.name' value='DBeaver'/>
       <property name='org.eclipse.equinox.p2.description' value='Universal Database Manager'/>
       <property name='org.eclipse.equinox.p2.type.category' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='202502251514.org.jkiss.dbeaver' version='1.0.0.7n--cKojM67737C377C5C5A'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='202503010932.org.jkiss.dbeaver' version='1.0.0.7n-1cKojM67737C39353K97'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ide.feature.feature.group' range='[25.0.0.202502251514,25.0.0.202502251514]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ide.feature.feature.group' range='[25.0.1.202503010932,25.0.1.202503010932]'/>
     </requires>
     <touchpoint id='null' version='0.0.0'/>
   </unit>

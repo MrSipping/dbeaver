@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql.debug.ui' version='1.0.179.202502251514'>
+  <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.postgresql.debug.ui' version='1.0.180.202503010932'>
     <properties size='9'>
       <property name='artifact.size' value='17960'/>
       <property name='download.size' value='17960'/>
-      <property name='download.checksum.sha-512' value='5d7bd1ca02588ec1635f164964cf6fa49ab4be3bbaef5912c835409f0f31c7469dcb63932b30a4b4ed3fb7d032ce34670dbcbac52e18228cc8db5876e3aa264f'/>
-      <property name='download.checksum.sha-1' value='946a40770db222d642127e719aa1df88d4f0b7f6'/>
-      <property name='download.checksum.sha-256' value='00d1e26a74053849813d0f371d903ef99e5755a5810addd2d4628c20d84b8cb7'/>
+      <property name='download.checksum.sha-512' value='babccdac40a05cad487bd1267a406dd5b7bf9116db0f85e52e6b723d8f94419b4f34358e273e331cc05bb1f7b560cf17254bfdbb1c3a3d57441bc204fa2b7753'/>
+      <property name='download.checksum.sha-1' value='b14b59b2336c5a6955654a05b57e03fe68cbf154'/>
+      <property name='download.checksum.sha-256' value='f22a7bcafa9b5dce437615bbce1793cbeb78156dd2cc74b064b4e33911dbfc31'/>
       <property name='maven-groupId' value='org.jkiss.dbeaver'/>
       <property name='maven-artifactId' value='org.jkiss.dbeaver.ext.postgresql.debug.ui'/>
-      <property name='maven-version' value='1.0.179-SNAPSHOT'/>
+      <property name='maven-version' value='1.0.180-SNAPSHOT'/>
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
   </artifact>

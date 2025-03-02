@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.tidb.ui' version='1.0.30.202502251514'>
+  <artifact classifier='osgi.bundle' id='org.jkiss.dbeaver.ext.tidb.ui' version='1.0.31.202503010932'>
     <properties size='9'>
-      <property name='artifact.size' value='10102'/>
-      <property name='download.size' value='10102'/>
-      <property name='download.checksum.sha-512' value='30f7a288f10443c56234764a62ddb81c5ad3ee472ef37247bd9cdfb4987990f38a8cf8722ef98f4ed1260ae872aee26424a36ec1f8e49a5be487e36e5641900f'/>
-      <property name='download.checksum.sha-1' value='593c2294e13995145f18ba0a01e3b2302248ec56'/>
-      <property name='download.checksum.sha-256' value='2218b49729a5dbe2b75147a44aea8a450b55cd629d1c1e0bfd03a1ed6db6f2f2'/>
+      <property name='artifact.size' value='10101'/>
+      <property name='download.size' value='10101'/>
+      <property name='download.checksum.sha-512' value='48b97fd1c2695071f7b5cd9bf2dd857bbd50492e7f5d89916cf9965470252678ad28eee2db494323a60753c06f6b2fdbee041e84709257a0567d7f4a94b33a62'/>
+      <property name='download.checksum.sha-1' value='599d26152aa9f67cfc22d4ed9ba78a8675aa94ec'/>
+      <property name='download.checksum.sha-256' value='3e6dd25f0b03d99682f648564a07ba6f4937a567921d0c1cd19c5c9939e659e7'/>
       <property name='maven-groupId' value='org.jkiss.dbeaver'/>
       <property name='maven-artifactId' value='org.jkiss.dbeaver.ext.tidb.ui'/>
-      <property name='maven-version' value='1.0.30-SNAPSHOT'/>
+      <property name='maven-version' value='1.0.31-SNAPSHOT'/>
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
   </artifact>

@@ -2,7 +2,7 @@
 <feature
       id="org.jkiss.dbeaver.git.feature"
       label="%featureName"
-      version="1.0.138.202502251514"
+      version="1.0.139.202503010932"
       provider-name="%providerName">
 
    <description>
@@ -32,6 +32,6 @@
    <plugin id="org.apache.sshd.sftp" version="2.14.0"/>
 
    <!-- DBeaver deps -->
-   <plugin id="org.jkiss.dbeaver.team.git.ui" version="1.0.138.202502251514"/>
+   <plugin id="org.jkiss.dbeaver.team.git.ui" version="1.0.139.202503010932"/>
 
 </feature>

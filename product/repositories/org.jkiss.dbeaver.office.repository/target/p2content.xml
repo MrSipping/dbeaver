@@ -74,8 +74,8 @@
       <provided namespace='java.package' name='java.beans' version='0.0.0'/>
       <provided namespace='java.package' name='javax.sql' version='0.0.0'/>
       <provided namespace='java.package' name='javax.print.event' version='0.0.0'/>
-      <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
       <provided namespace='java.package' name='javax.imageio.metadata' version='0.0.0'/>
+      <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
       <provided namespace='java.package' name='java.net' version='0.0.0'/>
       <provided namespace='java.package' name='javax.naming.spi' version='0.0.0'/>
       <provided namespace='java.package' name='javax.imageio.plugins.bmp' version='0.0.0'/>
@@ -178,8 +178,8 @@
       <provided namespace='java.package' name='com.sun.jdi' version='0.0.0'/>
       <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
       <provided namespace='java.package' name='com.sun.security.jgss' version='0.0.0'/>
-      <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
       <provided namespace='java.package' name='java.util.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
       <provided namespace='java.package' name='javax.management.timer' version='0.0.0'/>
       <provided namespace='java.package' name='java.security.spec' version='0.0.0'/>
       <provided namespace='java.package' name='java.nio.file.spi' version='0.0.0'/>
@@ -261,16 +261,16 @@
     </provides>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
-  <unit id='202502251514.org.jkiss.dbeaver.office.category' version='1.0.0.21BqcKol-V7737C377C5C5A'>
+  <unit id='202503010932.org.jkiss.dbeaver.office.category' version='1.0.0.21BscKol-V7737C39353K97'>
     <properties size='2'>
       <property name='org.eclipse.equinox.p2.name' value='DBeaver Office Support'/>
       <property name='org.eclipse.equinox.p2.type.category' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='202502251514.org.jkiss.dbeaver.office.category' version='1.0.0.21BqcKol-V7737C377C5C5A'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='202503010932.org.jkiss.dbeaver.office.category' version='1.0.0.21BscKol-V7737C39353K97'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.office.feature.feature.group' range='[1.1.187.202502251514,1.1.187.202502251514]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jkiss.dbeaver.ext.office.feature.feature.group' range='[1.1.188.202503010932,1.1.188.202503010932]'/>
     </requires>
     <touchpoint id='null' version='0.0.0'/>
   </unit>

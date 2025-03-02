@@ -37,7 +37,7 @@
     	
     <key>CFBundleShortVersionString</key>
     		
-    <string>25.0.0</string>
+    <string>25.0.1</string>
     	
     <key>CFBundleSignature</key>
     		
@@ -45,7 +45,7 @@
     	
     <key>CFBundleVersion</key>
     		
-    <string>25.0.0.202502251514</string>
+    <string>25.0.1.202503010932</string>
     	
     <key>NSHighResolutionCapable</key>
     		

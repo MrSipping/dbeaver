@@ -6,8 +6,8 @@ Bundle-SymbolicName: org.jkiss.dbeaver.ui.app.standalone;singleton:=true
 Bundle-Activator: org.jkiss.dbeaver.ui.app.standalone.internal.CoreAppli
  cationActivator
 Bundle-ActivationPolicy: lazy
-Bundle-Version: 25.0.0.202502251514
-Bundle-Release-Date: 20250303
+Bundle-Version: 25.0.1.202503010932
+Bundle-Release-Date: 20250325
 Export-Package: org.jkiss.dbeaver.ui.app.standalone,org.jkiss.dbeaver.ui
  .app.standalone.rpc,org.jkiss.dbeaver.ui.app.standalone.update
 Bundle-ClassPath: .

@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DBeaver OceanBase UI
 Bundle-SymbolicName: org.jkiss.dbeaver.ext.oceanbase.ui;singleton:=true
-Bundle-Version: 1.0.88.202502251514
-Bundle-Release-Date: 20250303
+Bundle-Version: 1.0.89.202503010932
+Bundle-Release-Date: 20250325
 Require-Bundle: org.jkiss.dbeaver.model.sql,org.jkiss.dbeaver.ext.generi
  c,org.jkiss.dbeaver.ext.mysql,org.jkiss.dbeaver.ext.mysql.ui,org.jkiss.
  dbeaver.ext.oceanbase,org.jkiss.dbeaver.ext.oracle,com.google.gson,org.

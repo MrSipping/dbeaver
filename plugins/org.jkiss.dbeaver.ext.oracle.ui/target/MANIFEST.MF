@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DBeaver Oracle UI
 Bundle-SymbolicName: org.jkiss.dbeaver.ext.oracle.ui;singleton:=true
-Bundle-Version: 1.0.137.202502251514
-Bundle-Release-Date: 20250303
+Bundle-Version: 1.0.138.202503010932
+Bundle-Release-Date: 20250325
 Bundle-Activator: org.jkiss.dbeaver.ext.oracle.ui.internal.OracleUIActiv
  ator
 Require-Bundle: org.jkiss.dbeaver.ui.config.migration,org.jkiss.dbeaver.

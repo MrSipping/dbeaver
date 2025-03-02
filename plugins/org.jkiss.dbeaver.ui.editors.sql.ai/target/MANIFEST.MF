@@ -3,14 +3,14 @@ Bundle-ManifestVersion: 2
 Bundle-Vendor: DBeaver Corp
 Bundle-Name: DBeaver SQL Editors - AI integration
 Bundle-SymbolicName: org.jkiss.dbeaver.ui.editors.sql.ai;singleton:=true
-Bundle-Version: 1.0.52.202502251514
+Bundle-Version: 1.0.53.202503010932
 Import-Package: org.jkiss.dbeaver.model.ai,org.jkiss.dbeaver.model.ai.in
  ternal
 Export-Package: org.jkiss.dbeaver.ui.editors.sql.ai,org.jkiss.dbeaver.ui
  .editors.sql.ai.controls,org.jkiss.dbeaver.ui.editors.sql.ai.format,org
  .jkiss.dbeaver.ui.editors.sql.ai.openai,org.jkiss.dbeaver.ui.editors.sq
  l.ai.popup,org.jkiss.dbeaver.ui.editors.sql.ai.preferences
-Bundle-Release-Date: 20250303
+Bundle-Release-Date: 20250325
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.jkiss.bundle.gpt3,org.jkiss.dbeaver.model.ai,org.jki
  ss.dbeaver.ui.navigator,org.eclipse.ui.workbench,org.jkiss.dbeaver.ui,o

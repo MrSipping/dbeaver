@@ -2,7 +2,7 @@
 <feature
         id="org.jkiss.dbeaver.ce.feature"
         label="%featureName"
-        version="25.0.0.202502251514"
+        version="25.0.1.202503010932"
         provider-name="%providerName"
         plugin="org.jkiss.dbeaver.ui.app.standalone">
 
@@ -22,10 +22,10 @@
 
     </url>
 
-    <includes id="org.jkiss.dbeaver.standalone.feature" version="25.0.0.202502251514"/>
-    <includes id="org.jkiss.dbeaver.app.local.feature" version="25.0.0.202502251514"/>
-    <includes id="org.jkiss.dbeaver.ui.extra.feature" version="25.0.0.202502251514"/>
+    <includes id="org.jkiss.dbeaver.standalone.feature" version="25.0.1.202503010932"/>
+    <includes id="org.jkiss.dbeaver.app.local.feature" version="25.0.1.202503010932"/>
+    <includes id="org.jkiss.dbeaver.ui.extra.feature" version="25.0.1.202503010932"/>
 
-    <plugin id="org.jkiss.dbeaver.ui.app.standalone" version="25.0.0.202502251514"/>
+    <plugin id="org.jkiss.dbeaver.ui.app.standalone" version="25.0.1.202503010932"/>
 
 </feature>

@@ -214,29 +214,6 @@
                     <parameter name="read-only-meta-data" value="true"/>
                 </driver>
                 <driver
-                    id="java-driver-core"
-                    label="scylladb"
-                    icon="icons/scylladb_icon.png"
-                    iconBig="icons/scylladb_icon@2x.png"
-                    class="com.datastax.oss.driver.api.core.CqlSession"
-                    sampleURL="jdbc:cassandra://{host}[:{port}]/[{database}]"
-                    useURL="true"
-                    defaultPort="9042"
-                    defaultDatabase=""
-                    defaultUser=""
-                    webURL="https://docs.datastax.com/en/developer/java-driver/"
-                    propertiesURL="https://docs.datastax.com/en/developer/java-driver/latest/manual/core/"
-                    description="Scylladb JDBC Driver"
-                    categories="nosql">
-
-                    <file type="jar" path="maven:/org.apache.cassandra:java-driver-core:RELEASE[4.18.1]" bundle="!drivers.scylladb"/>
-                    <file type="jar" path="drivers/scylladb" bundle="drivers.scylladb"/>
-
-                    <parameter name="serverType" value="scylladb"/>
-                    <property name="loginTimeout" value="20"/>
-                    <property name="connectTimeout" value="20"/>
-                </driver>
-                <driver
                     id="informix"
                     label="Informix"
                     icon="icons/informix_icon.png"
@@ -962,6 +939,24 @@
                     <parameter name="krb5.show-service" value="true"/>
                     <parameter name="krb5.show-ssl-jks" value="true"/>
                     <parameter name="supports-multi-insert" value="true"/>
+                </driver>
+                <driver
+                    id="cassandra-jdbc-wrapper"
+                    label="ScyllaDB"
+                    icon="icons/In4matic_SoloLogo.png"
+                    iconBig="icons/In4matic_SoloLogo.png"
+                    class="com.ing.data.cassandra.jdbc.CassandraDriver"
+                    sampleURL="jdbc:cassandra://{host}[:{port}]"
+                    useUrl="true"
+                    defaultPort="9042"
+                    description="Custom ScyllaDB Driver"
+                    supportedConfigurationTypes="MANUAL,URL"
+                    webURL="https://github.com/ing-bank/cassandra-jdbc-wrapper"
+                    categories="nosql">
+                    <file type="jar" path="maven:/com.ing.data:cassandra-jdbc-wrapper:4.14.0" bundle="!drivers.scylladb"/>
+                    <file type="jar" path="drivers/scylladb" bundle="drivers.scylladb"/>
+
+                    <property name="basic.load-balancing-policy.local-datacenter" value=""/>
                 </driver>
 
                 <!-- CUBRID -->

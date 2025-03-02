@@ -3,7 +3,7 @@
 <feature
         id="org.jkiss.dbeaver.app.base.feature"
         label="%featureName"
-        version="25.0.0.202502251514"
+        version="25.0.1.202503010932"
         provider-name="%providerName"
         plugin="org.jkiss.dbeaver.ui.app.standalone">
 
@@ -23,28 +23,28 @@
         <update label="DBeaver Universal Database Manager" url="https://dbeaver.io/"/>
     </url>
 
-    <includes id="org.jkiss.dbeaver.rcp.feature" version="3.0.29.202502251514"/>
+    <includes id="org.jkiss.dbeaver.rcp.feature" version="3.0.30.202503010932"/>
 
-    <includes id="org.jkiss.dbeaver.runtime.feature" version="25.0.0.202502251514"/>
-    <includes id="org.jkiss.dbeaver.ui.feature" version="25.0.0.202502251514"/>
-    <includes id="org.jkiss.dbeaver.db.feature" version="1.0.141.202502251514"/>
-    <includes id="org.jkiss.dbeaver.db.ui.feature" version="1.0.141.202502251514"/>
+    <includes id="org.jkiss.dbeaver.runtime.feature" version="25.0.1.202503010932"/>
+    <includes id="org.jkiss.dbeaver.ui.feature" version="25.0.1.202503010932"/>
+    <includes id="org.jkiss.dbeaver.db.feature" version="1.0.142.202503010932"/>
+    <includes id="org.jkiss.dbeaver.db.ui.feature" version="1.0.142.202503010932"/>
 
     <!-- SWT additions -->
-    <plugin id="org.jkiss.dbeaver.ui.swt.linux" os="linux" version="1.0.10.202502251514" />
-    <plugin id="org.jkiss.dbeaver.ui.swt.macos" os="macosx" version="1.0.15.202502251514" />
-    <plugin id="org.jkiss.dbeaver.ui.swt.windows" os="win32" version="1.0.10.202502251514" />
+    <plugin id="org.jkiss.dbeaver.ui.swt.linux" os="linux" version="1.0.11.202503010932" />
+    <plugin id="org.jkiss.dbeaver.ui.swt.macos" os="macosx" version="1.0.16.202503010932" />
+    <plugin id="org.jkiss.dbeaver.ui.swt.windows" os="win32" version="1.0.11.202503010932" />
 
     <!-- Logging -->
 
-    <plugin id="org.jkiss.dbeaver.slf4j" version="2.0.120.202502251514" />
+    <plugin id="org.jkiss.dbeaver.slf4j" version="2.0.121.202503010932" />
 
     <!-- Additional plugins for standalone version -->
 
     <plugin id="org.eclipse.ui.ide.application" version="1.5.600.v20241021-1257" />
     <plugin id="org.apache.commons.cli" version="1.9.0" />
     <!-- Launcher -->
-    <plugin id="org.jkiss.dbeaver.launcher" version="1.0.24.202502251514"/>
+    <plugin id="org.jkiss.dbeaver.launcher" version="1.0.25.202503010932"/>
     
 
 </feature>
